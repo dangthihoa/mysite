@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'tzunl!fxgyh&sx48ehgv=zd@x0j_ik
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['radiant-retreat-19607.herokuapp.com']
+ALLOWED_HOSTS = ['radiant-retreat-19607.herokuapp.com','127.0.0.1']
 
 
 # Application definition
